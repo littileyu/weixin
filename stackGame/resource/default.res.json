@@ -1,0 +1,155 @@
+{
+	"groups": [
+		{
+			"keys": "egret_icon_png,bg_jpg,description_json,Notperfect_mp3,end_mp3,explode3_mp3,five5_mp3,five1_mp3,five2_mp3,five3_mp3,five4_mp3,home_png,dizuo_png,kong_png,kongm_png,kongm-y_png,kongdd_png,konghq_png,konghq-y_png,role_png,zj-icon_png,yun_png,bgm_mp3,goback_png,gy_png,bk_png,by_png,gk_png,chooseBg_jpg",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/mp3/Notperfect.mp3",
+			"type": "sound",
+			"name": "Notperfect_mp3"
+		},
+		{
+			"url": "assets/mp3/end.mp3",
+			"type": "sound",
+			"name": "end_mp3"
+		},
+		{
+			"url": "assets/mp3/explode3.mp3",
+			"type": "sound",
+			"name": "explode3_mp3"
+		},
+		{
+			"url": "assets/mp3/five5.mp3",
+			"type": "sound",
+			"name": "five5_mp3"
+		},
+		{
+			"url": "assets/mp3/five1.mp3",
+			"type": "sound",
+			"name": "five1_mp3"
+		},
+		{
+			"url": "assets/mp3/five2.mp3",
+			"type": "sound",
+			"name": "five2_mp3"
+		},
+		{
+			"url": "assets/mp3/five3.mp3",
+			"type": "sound",
+			"name": "five3_mp3"
+		},
+		{
+			"url": "assets/mp3/five4.mp3",
+			"type": "sound",
+			"name": "five4_mp3"
+		},
+		{
+			"url": "assets/home.png",
+			"type": "image",
+			"name": "home_png"
+		},
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "assets/dizuo.png",
+			"type": "image",
+			"name": "dizuo_png"
+		},
+		{
+			"url": "assets/kong.png",
+			"type": "image",
+			"name": "kong_png"
+		},
+		{
+			"url": "assets/kongm.png",
+			"type": "image",
+			"name": "kongm_png"
+		},
+		{
+			"name": "kongm-y_png",
+			"type": "image",
+			"url": "assets/kongm-y.png"
+		},
+		{
+			"name": "kongdd_png",
+			"type": "image",
+			"url": "assets/kongdd.png"
+		},
+		{
+			"name": "konghq_png",
+			"type": "image",
+			"url": "assets/konghq.png"
+		},
+		{
+			"name": "konghq-y_png",
+			"type": "image",
+			"url": "assets/konghq-y.png"
+		},
+		{
+			"name": "role_png",
+			"type": "image",
+			"url": "assets/role.png"
+		},
+		{
+			"name": "zj-icon_png",
+			"type": "image",
+			"url": "assets/zj-icon.png"
+		},
+		{
+			"name": "yun_png",
+			"type": "image",
+			"url": "assets/yun.png"
+		},
+		{
+			"name": "bgm_mp3",
+			"type": "sound",
+			"url": "assets/mp3/bgm.mp3"
+		},
+		{
+			"name": "goback_png",
+			"type": "image",
+			"url": "assets/goback.png"
+		},
+		{
+			"name": "gy_png",
+			"type": "image",
+			"url": "assets/gy.png"
+		},
+		{
+			"name": "bk_png",
+			"type": "image",
+			"url": "assets/bk.png"
+		},
+		{
+			"name": "by_png",
+			"type": "image",
+			"url": "assets/by.png"
+		},
+		{
+			"name": "gk_png",
+			"type": "image",
+			"url": "assets/gk.png"
+		},
+		{
+			"name": "chooseBg_jpg",
+			"type": "image",
+			"url": "assets/chooseBg.jpg"
+		}
+	]
+}

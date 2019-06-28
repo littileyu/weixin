@@ -1,0 +1,8 @@
+{
+    "skins": {},
+    "autoGenerateExmlsList": true,
+    "exmls": [
+        "resource/game_skins/GameMain.exml"
+    ],
+    "path": "resource/default.thm.json"
+}

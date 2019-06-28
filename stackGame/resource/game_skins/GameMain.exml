@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameMainSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:view="view.*" >
+	<w:Config id="1632a56607b" ></w:Config>
+	<e:Image id="bg" width="750" x="0" y="-714" source="bg_jpg" height="2048"/>
+	<e:Group id="game" width="750" height="1334" x="0" y="0">
+		<e:Group id="towerGroup" height="0" width="0" x="0" y="915" scaleX="1" scaleY="1">
+			<e:Image width="604" height="207" x="73" y="0" source="dizuo_png" anchorOffsetX="0" fillMode="repeat"/>
+		</e:Group>
+	</e:Group>
+	<e:Label id="score" text="0" y="30" size="80" width="400" textAlign="center" x="175" fontFamily="Helvetica"/>
+	<e:Image id="roleBtn" width="190" height="190" y="148" source="role_png" x="280"/>
+	<e:Group id="choseRole" width="750" height="1334" x="0" y="0" alpha="0" visible="false">
+		<e:Image width="750" height="1334" x="0" y="0" source="chooseBg_jpg"/>
+		<e:RadioButton id="radio100" label="" x="183" y="230" groupName="buy" value="1" selected="true">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bk_png" source.down="by_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="radio200" label="" x="183" y="656" groupName="buy" value="2">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="gk_png" source.down="gy_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:Image id="closeBtn" width="32" height="47" x="40" y="50" source="goback_png"/>
+		<e:Label text="选择角色" x="175" y="1180" textColor="0x182950" size="80" width="400" textAlign="center"/>
+	</e:Group>
+</e:Skin>
